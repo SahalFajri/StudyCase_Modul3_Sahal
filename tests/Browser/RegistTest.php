@@ -12,7 +12,7 @@ class RegistTest extends DuskTestCase
      * A Dusk test example.
      * @group register
      */
-    public function testExample(): void
+    public function testRegist(): void
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/')

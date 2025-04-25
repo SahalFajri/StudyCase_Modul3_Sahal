@@ -12,7 +12,7 @@ class AddNotesTest extends DuskTestCase
      * A Dusk test example.
      * @group addnote
      */
-    public function testExample(): void
+    public function testAddNote(): void
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
